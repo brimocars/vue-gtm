@@ -50,12 +50,6 @@
     "vue",
     "google"
   ],
-  "files": [
-    "dist",
-    "src",
-    "tsconfig.json",
-    "index.js"
-  ],
   "dependencies": {
     "url-search-params-polyfill": "^8.1.0"
   },

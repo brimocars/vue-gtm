@@ -2,7 +2,7 @@
   "name": "vue-gtm",
   "version": "3.5.0",
   "description": "Google Tag Manager implementation in Vue application",
-  "main": "./index.js",
+  "main": "index.js",
   "author": {
     "name": "Manish Kumar",
     "url": "https://github.com/mib200"

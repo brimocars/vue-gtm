@@ -206,6 +206,9 @@ export default class VueGtmPlugin {
 
     if (this.isInBrowserContext() && this.options.enabled) {
       const dataLayer: DataLayerObject[] = (window.dataLayer = window.dataLayer ?? []);
+      if (rest.ecommerce) {
+        dataLayer.push({ ecommerce: null });
+      }
       dataLayer.push({
         event: event ?? "interaction",
         target: category,

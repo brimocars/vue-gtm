@@ -1,0 +1,17 @@
+!index.js
+
+.eslintignore
+.eslintrc.json
+.prettierignore
+.prettierrc.json
+CHANGELOG.md
+docker-compose.yml
+jest.config.js
+tsconfig.js
+tsconfig.lint.json
+*.tgz
+package
+.vscode
+.github
+tests
+vue-gtm-3.5.0
